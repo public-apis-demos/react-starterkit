@@ -1,0 +1,30 @@
+{
+  "name": "react-starterkit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/public-apis-demos/react-starterkit.git",
+  "author": "kasiriveni <kasiriveni@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "",
+    "server": " babel-node babel-watch server/index.js",
+    "build": "",
+    "watch": "",
+    "upgrade_pkg": "yarn upgrade"
+  },
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-redux": "^6.0.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-watch": "^7.0.0"
+  }
+}
