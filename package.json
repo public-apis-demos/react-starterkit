@@ -6,8 +6,8 @@
   "author": "kasiriveni <kasiriveni@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "",
-    "server": " babel-node babel-watch server/index.js",
+    "start": "webpack",
+    "server": "babel-node babel-watch server/index.js",
     "build": "",
     "watch": "",
     "upgrade_pkg": "yarn upgrade"
@@ -25,10 +25,15 @@
     "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.3.4",
     "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
     "babel-watch": "^7.0.0",
+    "css-loader": "^2.1.1",
     "husky": "^1.3.1",
     "lint-staged": "^8.1.5",
-    "prettier": "1.16.4"
+    "prettier": "1.16.4",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
   },
   "husky": {
     "hooks": {
